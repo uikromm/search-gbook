@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+
+.item .book-image {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+
+.item .info {
+  background: #171717d8;
+  backdrop-filter: blur(1px);
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.item:hover .info {
+  opacity: 1;
+}
