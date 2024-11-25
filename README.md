@@ -9,7 +9,6 @@ Installing dependencies:
 
 ```bash
 npm install
-# and
 npm run dev
 ```
 
